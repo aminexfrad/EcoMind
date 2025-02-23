@@ -35,6 +35,14 @@ const Home = () => {
               href="/about"
             />
           </div>
+          <div className="w-full h-[400px] relative" data-aos="fade-up">
+            <Image
+              src="/images/EcoMind.jpg" // Path to your image in the public directory
+              layout="fill"
+              objectFit="cover"
+              alt="Banner Photo"
+            />
+          </div>
         </section>
         {/* Feature List */}
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
