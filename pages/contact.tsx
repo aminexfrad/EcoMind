@@ -15,19 +15,19 @@ const Contact = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 gap-12 sm:place-items-center lg:w-full lg:place-items-start" data-aos="fade-up-right">
             <div className="sm:text-center lg:text-left">
               <PageSentence
-                title="We love receiving messages from you, we are waiting for it."
+                title="Nous adorons recevoir vos messages, nous les attendons avec impatience."
                 badge="CONTACT"
               />
             </div>
             <div className="space-y-6">
               <IconListItem
-                label="Phone"
-                value="+62 1234 8921"
+                label="Téléphone"
+                value="+216 29 070 679"
                 icon={<FiPhoneCall />}
               />
               <IconListItem
-                label="Email"
-                value="support@EcoMind.tld"
+                label="E-mail"
+                value="support@EcoMind.com"
                 icon={<FiMail />}
               />
             </div>
@@ -35,12 +35,12 @@ const Contact = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-down-left">
             <div className="grid grid-cols-1 gap-7 p-6 md:p-9 bg-light rounded-md lg:w-10/12 ">
               <div className="grid grid-cols-2 gap-4">
-                <InputGroup label="Name" />
-                <InputGroup label="Email" />
+                <InputGroup label="Nom et prénom" />
+                <InputGroup label="E-mail" />
               </div>
-              <InputGroup label="Subject" />
+              <InputGroup label="Sujet" />
               <TextAreaGroup label="Message" />
-              <Button value="Send Message" />
+              <Button value="Envoyer le message" />
             </div>
           </aside>
         </section>

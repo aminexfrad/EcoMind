@@ -3,7 +3,7 @@ import TeamCard from 'components/molecules/Card/TeamCard'
 import PageSentence from 'components/molecules/PageSentence'
 import SectionSentence from 'components/molecules/SectionSentence'
 //import LogoList from 'components/organisms/LogoList'
-import StatisticList from 'components/organisms/StatisticList'
+//import StatisticList from 'components/organisms/StatisticList'
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
@@ -36,39 +36,23 @@ const About = () => {
         </aside>
       </section>
       <LineDivider />
+      
       <section className="grid place-items-center gap-16">
         <div
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="STATISTICS"
-            title="In 3 years we reached 8 countries, 193 clients and earning $100k USD"
-          />
-        </div>
-        <div className="w-full grid gap-14">
-          <div data-aos="fade-right">
-            <StatisticList />
-          </div>
-
-        </div>
-      </section>
-      <section className="grid place-items-center gap-16">
-        <div
-          className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
-          data-aos="zoom-in-up"
-        >
-          <SectionSentence
-            badge="OUR TEAMS"
-            title="Meet the team! All creative people are here"
+            badge="NOTRE ÉQUIPE"
+            title="encontrez l'équipe ! Tous les esprits créatifs sont ici"
           />
         </div>
         <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-1.webp"
-              job="Founder"
-              name="Albert Flores"
+              imageSrc="/images/Amine.jpg"
+              job="Chef d'équipe"
+              name="Mohamed Amine FRAD"
             />
           </div>
           <div data-aos="fade-up">

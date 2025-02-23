@@ -5,12 +5,12 @@ const Document = () => {
   return (
     <Html lang='en'>
       <Head>
-          <meta name="description" content="An company profile of EcoMind Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance" />
+          <meta name="description" content="C'est une entreprise qui propose des services de Développement d'Applications (Mobile, Web et Desktop), de Conception UI/UX, d'IoT (Internet des Objets) et de Maintenance." />
           <meta name="robots" content="index, follow" />
           <meta name='tags' content='web,app,ui,maintenance,company,EcoMind,profile' />
         <link
           rel="shortcut icon"
-          href="/images/favicon.svg"
+          href="/images/favicon.ico"
           type="image/x-icon"
         />
       </Head>
