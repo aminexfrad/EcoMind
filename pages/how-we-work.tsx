@@ -11,8 +11,8 @@ const HowWeWork = () => {
       <section className="grid place-items-center">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge="HOW WE WORK"
-            title="We have a workflow that allows the job to be delivered well"
+            badge="COMMENT NOUS TRAVAILLONS"
+            title="Nous avons un flux de travail qui permet de bien livrer le travail"
           />
         </div>
       </section>
@@ -31,18 +31,18 @@ const HowWeWork = () => {
         </aside>
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 01"
-            title={`Let's talk about your company's problems first`}
-            paragraph={"After submitting the quote form, we will review the data, then we will contact you. You can discuss with our team regarding your problem and find a solution to that problem. <br> <br> In this step, you will discuss what application to build."}
+            badge="ÉTAPE 01"
+            title={`Parlons d'abord des problèmes de votre entreprise`}
+            paragraph={"Après avoir soumis le formulaire de devis, nous examinerons les données, puis nous vous contacterons. Vous pourrez discuter avec notre équipe de votre problème et trouver une solution à ce problème."}
           />
         </aside>
       </section>
       <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 lg:gap-5">
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-right">
           <SectionSentence
-            badge="STEP 02"
-            title={`Doing planning, design and development until everything is finished`}
-            paragraph="When everything is agreed upon, our team will make plans related to the application that will be created. Starting from analysis, design, to development. <br> <br> In this step, the application is 100% complete."
+            badge="ÉTAPE 02"
+            title={`Faire la planification, la conception et le développement jusqu'à ce que tout soit terminé.`}
+            paragraph="Lorsque tout est convenu, notre équipe élaborera des plans relatifs à l'application qui sera créée. À partir de l'analyse, la conception, jusqu'au développement."
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">
@@ -71,9 +71,9 @@ const HowWeWork = () => {
         </aside>
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 03"
-            title={`The project is complete and we ship all the project assets, and access to the server`}
-            paragraph="We will be responsible for delivering all the project assets to you, don't worry. These assets include, design files, source code, server access, and so on. <br> <br> In this step, everything is done and the contract ends."
+            badge="ÉTAPE 03"
+            title={`Le projet est terminé et nous livrons tous les éléments du projet, ainsi que l'accès au serveur.`}
+            paragraph="Nous nous chargerons de vous livrer tous les éléments du projet, ne vous inquiétez pas. Ces éléments incluent les fichiers de conception, le code source, l'accès au serveur, et ainsi de suite. <br> <br> À cette étape, tout est terminé et le contrat prend fin."
           />
         </aside>
       </section>
