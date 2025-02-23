@@ -37,7 +37,7 @@ const Home = () => {
           </div>
           <div className="w-full h-[400px] relative" data-aos="fade-up">
             <Image
-              src="/images/EcoMind.jpg" // Path to your image in the public directory
+              src="/images/EcoMind.jpg" 
               layout="fill"
               objectFit="cover"
               alt="Banner Photo"
