@@ -26,38 +26,32 @@ const Footer = () => {
               <Text value="SERVICES" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
                 <NavLink
-                  value="Web Development"
+                  value="Développement Web"
+                  href="/service/detail"
+                />
+                   <NavLink
+                  value="Développement Systèmes Embarqués & IOT"
                   href="/service/detail"
                 />
                 <NavLink
-                  value="App Development"
+                  value="Développement d'Applications"
                   href="/service/detail"
                 />
-                <NavLink value="UI Design" href="/service/detail" />
+               
+                <NavLink value="Conception d'Interface UI & UX " href="/service/detail" />
                 <NavLink value="Consultation" href="/service/detail" />
                 <NavLink value="Maintenance" href="/service/detail" />
-                <NavLink value="Pricing" href="/pricing" />
               </div>
             </div>
             <div className="space-y-5">
-              <Text value="COMPANY" textStyle="FooterLinkGroupTitle" />
+              <Text value="ENTREPRISE" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
-                <NavLink value="About" href="/about" />
+                <NavLink value="À propos" href="/about" />
                 <NavLink value="Contact" href="/contact" />
-                <NavLink value="Send Quote" href="/quote" />
-                <NavLink value="Privacy Policy" href="/privacy-policy" />
-                <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Jobs" href="/jobs" />
+                <NavLink value="Demander un devis" href="/quote" />
+                <NavLink value="Politique de confidentialité" href="/privacy-policy" />
+                <NavLink value="Conditions d'utilisation" href="/term-of-service" />
                 <NavLink value="Blogs" href="/blog" />
-              </div>
-            </div>
-            <div className="space-y-5">
-              <Text value="RESOURCES" textStyle="FooterLinkGroupTitle" />
-              <div className="space-y-[10px]">
-                <NavLink value="Support" href="/support" />
-                <NavLink value="Documentation" href="/documentation" />
-                <NavLink value="License" href="/license" />
-                <NavLink value="Sitemap" href="/sitemap" />
               </div>
             </div>
           </div>
