@@ -10,19 +10,19 @@ import React from 'react'
 const Quote = () => {
   return (
     <>
-      <PageTemplate title='Send Quote - EcoMind'>
+      <PageTemplate title='Envoyer un devis - EcoMind'>
         <section className="grid grid-cols-1 place-items-center gap-5 lg:grid-cols-2">
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 place-items-center gap-12 lg:w-full lg:place-items-start" data-aos="fade-down-right">
             <div className="text-center lg:text-left">
               <PageSentence
-                title="Tell us about your problem and how we can help"
-                description="We are happy to help you, tell us what is the problem with your company, and we are ready to answer these problems. It usually takes a few minutes for us to respond."
-                badge="SEND QUOTE"
+                title="Parlez-nous de votre problème et comment nous pouvons vous aider."
+                description="Nous sommes heureux de vous aider. Dites-nous quel est le problème avec votre entreprise, et nous sommes prêts à répondre à ces problèmes. Il nous faut généralement quelques minutes pour répondre."
+                badge="ENVOYER UN DEVIS"
               />
             </div>
             <div className="w-fit">
               <ButtonLink
-                value="Ask Us"
+                value="Contactez-nous"
                 href="/faq"
                 color="white"
                 style="light"
@@ -32,22 +32,22 @@ const Quote = () => {
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-up-left">
             <div className="grid grid-cols-1 gap-7 p-6 md:p-9 bg-light rounded-md lg:w-10/12 ">
               <div className="grid grid-cols-2 gap-4">
-                <InputGroup label="Name" />
-                <InputGroup label="Email" />
+                <InputGroup label="Nom" />
+                <InputGroup label="E-mail" />
               </div>
               <div className="grid grid-cols-2 gap-4">
-                <InputGroup label="Company" />
+                <InputGroup label="Société" />
                 <SelectGroup
-                  label="Company Size"
+                  label="Taille de l'entreprise"
                   options={[
-                    { label: 'Small', value: 'small' },
-                    { label: 'Medium', value: 'medium' },
-                    { label: 'Large', value: 'large' },
+                    { label: 'Petite', value: 'small' },
+                    { label: 'Moyenne', value: 'medium' },
+                    { label: 'Grande', value: 'large' },
                   ]}
                 />
               </div>
-              <TextAreaGroup label="Tell Us Your Problem" />
-              <Button value="Send Quote" />
+              <TextAreaGroup label="Parlez-nous de votre problème" />
+              <Button value="ENVOYER UN DEVIS" />
             </div>
           </aside>
         </section>

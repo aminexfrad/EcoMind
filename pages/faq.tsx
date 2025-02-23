@@ -75,7 +75,7 @@ const Faq = () => {
         <div className="sm:w-10/12 md:8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="FAQ"
-            title="Frequently asked questions, maybe the same as yours"
+            title="Questions fréquemment posées, peut-être les mêmes que les vôtres."
           />
         </div>
       </section>
@@ -84,7 +84,7 @@ const Faq = () => {
           <FaqTabbar
             tabs={[
               {
-                name: 'General',
+                name: 'Général',
                 onClick: () => {
                   setActiveFaq(randomFaqs[0])
                 },
@@ -102,7 +102,7 @@ const Faq = () => {
                 },
               },
               {
-                name: 'Technology',
+                name: 'Technologie',
                 onClick: () => {
                   setActiveFaq(randomFaqs[3])
                 },

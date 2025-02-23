@@ -26,7 +26,7 @@ const Services = () => {
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
               badge="SERVICES"
-              title="We are here to help solve your company's problems"
+              title="Nous sommes ici pour aider à résoudre les problèmes de votre entreprise."
             />
           </div>
         </section>
@@ -46,20 +46,20 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="UI DESIGN"
-                title="Don't let your idea get caught by others, design a prototype for your idea"
-                paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
+                title="Ne laissez pas votre idée être reprise par d'autres, concevez un prototype pour la concrétiser."
+                paragraph="Déléguez vos idées le plus rapidement possible, créez de magnifiques designs et des prototypes dynamiques."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
-                  title="Beautiful Design"
-                  description="Create a modern design for your idea."
+                  title="Beau design"
+                  description="Créez un design moderne pour votre idée."
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
                   title="Prototype"
-                  description="Create vivid prototypes for your designs."
+                  description="Créez des prototypes dynamiques pour vos designs."
                   icon={<FiLayout />}
                 />
               </aside>
@@ -71,22 +71,22 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="DEVELOPMENT"
-                title="Create solutions to repetitive problems, design applications and access anywhere!"
-                paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
+                badge="DÉVELOPPEMENT"
+                title="Créez des solutions aux problèmes récurrents, concevez des applications et accédez-y de n'importe où !"
+                paragraph="Dites-nous simplement quel est votre problème récurrent ou la méthode primitive utilisée aujourd'hui, et nous créerons une solution numérique."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 gap-5">
                 <CardListIcon
                   icon={<FiSmartphone />}
-                  title="Mobile App Development"
+                  title="Développement d'applications mobiles"
                 />
                 <CardListIcon
                   icon={<FiMonitor />}
-                  title="Desktop App Development"
+                  title="Développement d'applications de bureau"
                 />
-                <CardListIcon icon={<FiGlobe />} title="Web Development" />
+                <CardListIcon icon={<FiGlobe />} title="Développement web" />
               </aside>
               <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
@@ -117,8 +117,8 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="MAINTENANCE"
-                title="Think of your server as your own child, taking care of it every day"
-                paragraph="We will back up your servers every day, clean them every week, upgrade them when there is an update."
+                title="Pensez à votre serveur comme à votre propre enfant, prenez-en soin chaque jour."
+                paragraph="Nous sauvegardons vos serveurs chaque jour, les nettoyons chaque semaine et les mettons à jour dès qu'une nouvelle version est disponible."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -128,7 +128,7 @@ const Services = () => {
                 <IconListItem icon={<FiRefreshCcw />} value='Cleaning every week' />
                 <IconListItem icon={<FiCheckCircle />} value='Fixing Error' />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="Détail du service" href="/service/detail" />
             </div>
           </aside>
         </section>

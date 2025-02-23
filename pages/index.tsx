@@ -10,6 +10,11 @@ import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
+import dynamic from 'next/dynamic';
+
+// Import Chatbot component dynamically
+const Chatbot = dynamic(() => import('components/Chatbot'), { ssr: false });
+
 const Home = () => {
   return (
     <>
@@ -23,7 +28,6 @@ const Home = () => {
             <PageSentence
               title="Nous concevons. Nous développons. Nous livrons."
               description="Nous nous engageons à ne pas faire attendre nos clients. Nous livrerons le travail aussi rapidement que possible, parfois même le jour même. Cela dit, nous ne réduisons en aucun cas la qualité de notre travail."
-              
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
@@ -44,6 +48,7 @@ const Home = () => {
             />
           </div>
         </section>
+
         {/* Feature List */}
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
           <div data-aos="fade-up">
@@ -90,6 +95,7 @@ const Home = () => {
             />
           </aside>
         </section>
+
         {/* Our Teams */}
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
@@ -120,7 +126,9 @@ const Home = () => {
             />
           </aside>
         </section>
+
         <LineDivider />
+
         {/* Our Projects */}
         <section className="flex flex-col gap-16 items-center">
           <div
@@ -148,6 +156,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+
         {/* Testimonial */}
         <section className="flex flex-col gap-16 items-center">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
@@ -160,9 +169,13 @@ const Home = () => {
             <TestimonialList />
           </div>
         </section>
+
+        {/* Chatbot Component */}
+        <Chatbot />
+        
       </PageTemplate>
     </>
   )
 }
 
-export default Home
+export default Home;

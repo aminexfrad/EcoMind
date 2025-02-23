@@ -31,7 +31,7 @@ const Project = () => {
     },
   ]
   return (
-    <PageTemplate title="Project - EcoMind">
+    <PageTemplate title="Projets - EcoMind">
       <section className="flex flex-col items-center gap-5 md:flex-row md:justify-between">
         <aside
           className="w-full sm:w-10/12 grid grid-cols-1 place-items-center gap-12 md:place-items-start md:w-8/12 lg:w-6/12"
@@ -39,17 +39,17 @@ const Project = () => {
         >
           <div className="text-center md:text-left">
             <PageSentence
-              badge="PROJECTS"
-              title="We have completed many amazing projects that you will not believe"
+              badge="PROJETS"
+              title="Nous avons réalisé de nombreux projets incroyables que vous n'imaginerez pas"
             />
           </div>
         </aside>
         <aside className="w-full min-w-[175px] md:w-fit" data-aos="fade-left">
           <Select
             options={[
-              { label: 'App', value: 'app' },
-              { label: 'UI Design', value: 'ui-design' },
-              { label: 'Other', value: 'other' },
+             { label: 'App', value: 'app' },
+             { label: 'UI Design', value: 'ui-design' },
+             { label: 'Other', value: 'other' },
             ]}
           />
         </aside>
@@ -68,7 +68,7 @@ const Project = () => {
             )
           })}
         </div>
-        <Button value="Load More" color="white" style="light" />
+        <Button value="Charger plus" color="white" style="light" />
       </section>
     </PageTemplate>
   )

@@ -95,7 +95,7 @@ const Pricing = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="FAQ"
-            title="Frequently asked questions, maybe the same as yours"
+            title="Questions fréquemment posées, peut-être les mêmes que les vôtres."
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-7">
@@ -109,7 +109,7 @@ const Pricing = () => {
           })}
         </div>
         <div className="text-white text-base font-medium text-center">
-          {`Didn't find an answer? `}
+          {`Vous n'avez pas trouvé de réponse ? `}
           <div className="sm:hidden"></div>
           <div className="text-primary inline select-none">
             <Link href={'/quote'}>Do not hesitate to ask!</Link>

@@ -25,62 +25,41 @@ const ServiceDetail = () => {
   }
   const faqs: Faq[] = [
     {
-      title: `How is the payment system?`,
-      description: `If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.`,
+      title: `Puis-je d'abord consulter ?`,
+      description: `Bien sûr, vous pouvez d'abord nous consulter. Nous serons ravis de vous aider à résoudre vos problèmes et de vous fournir nos meilleures solutions. Vous pouvez nous contacter via la page de contact.`,
     },
     {
-      title: `Can I consult first?`,
-      description: `Of course you can consult us first. We are very happy to help your problems and provide our best solutions. You can contact us via the contact page.`,
+      title: `Que faire si le projet s'arrête à mi-chemin ?`,
+      description: `Nous promettons de toujours terminer le projet à temps. Si un problème survient (en raison de notre erreur), tous les paiements seront remboursés et le projet sera annulé.`,
     },
     {
-      title: `What if the project stops halfway?`,
-      description: `We promise to always finish the project on time, if a problem occurs (because of our mistake), all payments will be refunded. And the project will be terminated.`,
+      title: `Cela inclut-il les serveurs et les domaines ?`,
+      description: `Vous n'avez rien d'autre à penser, tout est prêt de notre côté. Il vous suffit de vérifier votre progression et de vous assurer que les fonctionnalités que vous souhaitez sont les bonnes.`,
     },
     {
-      title: `Does it include servers and domains?`,
-      description: `You don't need to think about anything else, we have everything prepared. You just need to check your progress and make sure the features you want are the right one.`,
+      title: `Recevrai-je le code source ?`,
+      description: `Lorsque le projet sera terminé à 100 %, toutes les ressources, telles que les fichiers de conception, les diagrammes d'analyse, le code source, etc., vous seront fournies. Vous n'avez pas à vous en soucier.`,
     },
     {
-      title: `Will I get the source code?`,
-      description: `When the project is 100% complete, all the resources, such as design files, analysis diagrams, source code, etc. will be provided to you. You don't need to worry about this.`,
-    },
-    {
-      title: `Is there a warranty?`,
-      description: `1 year warranty for our errors or mistakes. If you want to add a feature that is not included in the warranty, there is another fee per feature, and the price depends on the difficulty.`,
+      title: `Y a-t-il une garantie ?`,
+      description: `Une garantie d'un an pour nos erreurs ou fautes. Si vous souhaitez ajouter une fonctionnalité qui n'est pas incluse dans la garantie, des frais supplémentaires seront appliqués par fonctionnalité, et le prix dépendra de la difficulté.`,
     },
   ]
   const features: FeatureCardProps[] = [
     {
-      title: 'Design Files',
-      description:
-        'Projects are well designed using Figma. You will get the design file.',
-      icon: <FiFigma />,
-    },
-    {
-      title: 'Same Day',
-      description: `We don't want you to wait long. Everything will be finished on the same day.`,
-      icon: <FiClock />,
-    },
-    {
-      title: 'Quality Code',
-      description: `Code written according to good practice is highly maintainable.`,
+      title: 'Code de qualité',
+      description: `Le code écrit selon les bonnes pratiques est facilement maintenable.`,
       icon: <FiCode />,
     },
     {
-      title: 'SEO',
-      description:
-        'The website will appear on the first page of the search engine.',
-      icon: <FiTrendingUp />,
-    },
-    {
-      title: 'Responsive Design',
-      description: `Access the website on any device, don't limit your visitors.`,
+      title: 'Design Responsive (Adaptatif)',
+      description: `Accédez au site web sur n'importe quel appareil, ne limitez pas vos visiteurs.`,
       icon: <FiLayout />,
     },
     {
-      title: 'Blazing Fast',
+      title: 'Ultra-rapide',
       description:
-        'A high speed website will not disappoint prospective customers.',
+        'Une application à grande vitesse ne décevra pas les clients potentiels.',
       icon: <FiZap />,
     },
   ]
@@ -89,8 +68,8 @@ const ServiceDetail = () => {
       <section className="grid place-items-center">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge="DEVELOPMENT"
-            title="Solve your company's repetitive problems by designing apps"
+            badge="DÉVELOPPEMENT"
+            title="Résolvez les problèmes récurrents de votre entreprise en concevant des applications, en développant des applications, des systèmes IoT et des plans d'affaires."
           />
         </div>
       </section>
@@ -110,15 +89,15 @@ const ServiceDetail = () => {
           <div className="sm:w-10/12 md:w-8/12 lg:w-full lg:text-left grid gap-10">
             <div className="grid gap-8">
               <Text
-                value={`Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution. <br> <br> We can build you a website, a mobile app and a desktop app. All types of applications have a good security system, are easy to maintain, and are high speed. `}
+                value={`Dites-nous simplement quel est votre problème récurrent ou la méthode primitive utilisée aujourd'hui, et nous créerons une solution numérique. <br> <br> Nous pouvons vous créer un site web, une application mobile et une application de bureau. Tous types d'applications possèdent un système de sécurité robuste, sont faciles à maintenir et offrent une grande rapidité. `}
                 textStyle={'SectionParagraph'}
               />
             </div>
             <ul className="list-square text-white text-base font-medium pl-5 grid gap-2.5">
-              <li>Avoid potential bugs with unit testing</li>
-              <li>Removing unused code will speed up the application</li>
-              <li>The modern design pleases the users</li>
-              <li>A good UX will not disappoint users</li>
+              <li>Évitez les bugs potentiels grâce aux tests unitaires.</li>
+              <li>Supprimer le code inutilisé accélérera l'application.</li>
+              <li>Le design moderne plaît à l'utilisateur.</li>
+              <li>Une bonne expérience utilisateur (UX) ne décevra pas les utilisateurs.</li>
             </ul>
           </div>
           <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full"></div>
@@ -127,8 +106,8 @@ const ServiceDetail = () => {
       <section className="grid place-items-center gap-16">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge=" FEATURES"
-            title="Here's what you will get when purchasing this service"
+            badge="FONCTIONNALITÉS"
+            title="Voici ce que vous obtiendrez en achetant ce service."
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -150,7 +129,7 @@ const ServiceDetail = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="FAQ"
-            title="Frequently asked questions, maybe the same as yours"
+            title="Questions fréquemment posées, peut-être les mêmes que les vôtres."
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-7">
@@ -164,10 +143,10 @@ const ServiceDetail = () => {
           })}
         </div>
         <div className="text-white text-base font-medium">
-          {`Didn't find an answer? `}
+          {`Vous n'avez pas trouvé de réponse ? `}
           <div className="sm:hidden"></div>
           <div className="text-primary inline">
-            <Link href={'/quote'}>Do not hesitate to ask!</Link>
+            <Link href={'/quote'}>N'hésitez pas à demander !</Link>
           </div>
         </div>
       </section>
