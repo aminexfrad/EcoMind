@@ -2,7 +2,7 @@ import LineDivider from 'components/atoms/LineDivider'
 import TeamCard from 'components/molecules/Card/TeamCard'
 import PageSentence from 'components/molecules/PageSentence'
 import SectionSentence from 'components/molecules/SectionSentence'
-import LogoList from 'components/organisms/LogoList'
+//import LogoList from 'components/organisms/LogoList'
 import StatisticList from 'components/organisms/StatisticList'
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
@@ -10,7 +10,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <PageTemplate title="About - Collosal">
+    <PageTemplate title="À propos">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
@@ -29,9 +29,9 @@ const About = () => {
           data-aos="fade-up-left"
         >
           <PageSentence
-            badge="ABOUT"
-            title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            badge="À propos"
+            title="Nous sommes des personnes créatives, intelligentes et travailleuses"
+            description={`Plusieurs personnes créatives réunies au même endroit - c'est EcoMind. Nous collaborons pour produire les meilleurs résultats, appréciés par les clients et confortables pour les utilisateurs. Ici, nous maintenons l'esprit d'équipe malgré nos différents parcours. Tous les membres de notre équipe sont des experts dans leurs domaines respectifs.`}
           />
         </aside>
       </section>
@@ -50,7 +50,7 @@ const About = () => {
           <div data-aos="fade-right">
             <StatisticList />
           </div>
-          <LogoList />
+
         </div>
       </section>
       <section className="grid place-items-center gap-16">

@@ -2,7 +2,7 @@ import ButtonLink from 'components/atoms/Button/ButtonLink'
 import LineDivider from 'components/atoms/LineDivider'
 import FeatureCard from 'components/molecules/Card/FeatureCard'
 import PageSentence from 'components/molecules/PageSentence'
-import PricingCard from 'components/molecules/Card/PricingCard'
+//import PricingCard from 'components/molecules/Card/PricingCard'
 import ProjectCard from 'components/molecules/Card/ProjectCard'
 import SectionSentence from 'components/molecules/SectionSentence'
 import TestimonialList from 'components/organisms/TestimonialList'
@@ -13,7 +13,7 @@ import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
-      <PageTemplate title="Home - EcoMind">
+      <PageTemplate title="EcoMind">
         {/* Banner Section */}
         <section
           className="flex flex-col gap-10 items-center"
@@ -76,9 +76,9 @@ const Home = () => {
             data-aos="fade-left"
           >
             <SectionSentence
-              title="Everything is well planned, well designed and developed wholeheartedly"
-              paragraph="Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped."
-              badge="HOW WE WORK"
+              title="Tout est bien planifié, bien conçu et développé avec tout le cœur"
+              paragraph="Une planification minutieuse nous rend confiants, développé avec les meilleures pratiques pour que le projet puisse être maintenu. Nous testons toujours les projets avant qu'ils ne soient livrés."
+              badge="Comment Nous Travaillons"
             />
           </aside>
         </section>
@@ -87,12 +87,12 @@ const Home = () => {
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
-                title="We're a team of designers, engineers and analysts"
-                paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
-                badge="OUR TEAM"
+                title="Nous sommes une équipe de designers, développeurs, gestionnaires financiers et analystes"
+                paragraph="Notre équipe est composée de nombreuses personnes créatives. Nous nous engageons à maintenir un travail de qualité ainsi qu'une rapidité d'exécution. Ces personnes créatives travaillent ensemble pour obtenir des résultats maximaux."
+                badge="NOTRE ÉQUIPE"
               />
               <ButtonLink
-                value="See Our Teams"
+                value="Voir Notre Équipe"
                 href="/teams"
                 size="small"
                 color="white"
@@ -105,7 +105,7 @@ const Home = () => {
             data-aos="fade-left"
           >
             <Image
-              src={'/images/team-illustration.svg'}
+              src={'/images/team-illustration.png'}
               layout="fill"
               objectFit="fill"
               alt="Code editor and UI Editing popup"
@@ -120,8 +120,8 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="We have completed many amazing projects that you will not believe"
-              badge="PROJECTS"
+              title="Nous avons réalisé de nombreux projets incroyables que vous ne croirez pas"
+              badge="PROJETS"
             />
           </div>
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5">
@@ -140,62 +140,12 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/* Prices */}
-        <section className="flex flex-col gap-16 items-center">
-          <div
-            className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
-            data-aos="zoom-in-up"
-          >
-            <SectionSentence
-              title="What do you need? Choose a service that can help you"
-              badge="GET STARTED"
-            />
-          </div>
-          <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
-            <div data-aos="fade-up-right">
-              <PricingCard
-                price="1200$"
-                title="UI Design"
-                features={[
-                  '10 design pages',
-                  'Well-documented',
-                  '4 revisions',
-                  '$100/additional page',
-                ]}
-              />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="300">
-              <PricingCard
-                price="5000$"
-                title="Development"
-                features={[
-                  'Web & Mobile',
-                  'Well-documented',
-                  '8 revisions',
-                  '$1000/additional page',
-                ]}
-              />
-            </div>
-            <div data-aos="fade-up-left">
-              <PricingCard
-                price="3000$"
-                title="Maintenance"
-                features={[
-                  'Daily backup',
-                  '3 hours of maintenance',
-                  'Including fixing',
-                  '$50/additional hour',
-                ]}
-              />
-            </div>
-          </div>
-        </section>
         {/* Testimonial */}
         <section className="flex flex-col gap-16 items-center">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
-              title="What do our clients say that we never let down?"
-              badge="TESTIMONIAL"
+              title="Que disent nos clients ? Nous ne les décevons jamais."
+              badge="TÉMOIGNAGES"
             />
           </div>
           <div className="w-full" data-aos="fade-up">
