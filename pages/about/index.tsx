@@ -51,46 +51,62 @@ const About = () => {
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/Amine.jpg"
-              job="Chef d'équipe"
+              job="Chef d'équipe | Développeur Full-stack"
               name="Mohamed Amine FRAD"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-2.webp"
-              job="Chief Technology Officer"
-              name="Devon Lane"
+              imageSrc="/images/Mohamed Amine LAKHEL.jpeg"
+              job="Développeur Full-stack"
+              name="Mohamed Amine LAKHEL"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-3.webp"
-              job="UI Designer"
-              name="Darrell Steward"
+              imageSrc="/images/ikram chaaben.jpg"
+              job="Comptable Entreprise"
+              name="Ikram CHAABEN"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-4.webp"
-              job="Software Engineer"
-              name="Marvin McKinney"
+              imageSrc="/images/Islem Felah.jpg"
+              job="Consultant en commerce international"
+              name="Islem FELAH"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-5.webp"
-              job="System Analyst"
-              name="Floyd Miles"
+              imageSrc="/images/Rayen.jpg"
+              job="Designer"
+              name="Rayen SFAR"
+            />
+          </div>
+      
+          <div data-aos="fade-up">
+            <TeamCard
+              imageSrc="/images/Lina .png"
+              job="Technicienne en informatique de gestion"
+              name="Lina REJICHI"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-6.webp"
-              job="Project Manager"
-              name="Annette Black"
+              imageSrc="/images/Meryem.jpg"
+              job="Designer"
+              name="Meriem BAATOUT"
+            />
+          </div>
+          <div data-aos="fade-up">
+            <TeamCard
+              imageSrc="/images/CHAIMA.png"
+              job="Designer"
+              name="Chaima "
             />
           </div>
         </div>
+        
       </section>
     </PageTemplate>
   )
