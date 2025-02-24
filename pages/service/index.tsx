@@ -123,10 +123,10 @@ const Services = () => {
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Back up every day' />
-                <IconListItem icon={<FiArrowUp />} value='Upgrade' />
-                <IconListItem icon={<FiRefreshCcw />} value='Cleaning every week' />
-                <IconListItem icon={<FiCheckCircle />} value='Fixing Error' />
+                <IconListItem icon={<FiDownload />} value='Sauvegarder chaque jour' />
+                <IconListItem icon={<FiArrowUp />} value='Mettre à niveau' />
+                <IconListItem icon={<FiRefreshCcw />} value='Nettoyage chaque semaine' />
+                <IconListItem icon={<FiCheckCircle />} value='Correction erreur' />
               </aside>
               <TextArrowLink label="Détail du service" href="/service/detail" />
             </div>
